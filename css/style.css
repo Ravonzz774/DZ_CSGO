@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #272C3D;
+  padding: 20px;
+  align-items: center;
+}
+
+
+
+header div a {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+header div p {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.header-blog {
+    padding-right: 10px;
+}
+.header-updates {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-resoures {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-community {
+    padding-left: 10px;
+}
+.header-search {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 190px;
+    height: 30px;
+    background-color: #404864;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+
+.search-form {
+    margin-left: 5px;
+    background-color: #404864;
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+.header-language {
+    width: 130px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.language-menu {
+    visibility: hidden;
+    list-style: none;
+}
+
+.header-language:hover .language-menu {
+    visibility: visible;
+}
+
+.header-language:hover {
+    border-radius: 5px 5px 0 0;
+}
+.second-language {
+    width: 130px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 0 0 5px 5px;
+}
+
+.this-language {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.second-language a {
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.dropdown-icon {
+    display: inline;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.header-container {
+    margin: auto;
+}
+
+
+header div a:hover {
+    color: #FF9C28;
+}
+
+
+/* MAIN */
+
+main {
+    background-color: #000;
+}
+
+.main-csgo {
+    background-image: url("/img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+.player-text {
+    text-align: center;
+    margin-right: 3.5%;
+    padding-top: 46.5%;
+    font-family: 'Quantico', sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+.unique-text {
+    text-align: center;
+    margin-right: 3.5%;
+    font-family: 'Quantico', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
